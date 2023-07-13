@@ -1,3 +1,4 @@
+///<reference types="Cypress" />
 describe('Hover Over', () => {
     it('', () => {
         cy.visit('https://www.amazon.com')
