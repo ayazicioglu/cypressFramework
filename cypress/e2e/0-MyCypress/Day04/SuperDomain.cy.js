@@ -1,3 +1,4 @@
+///<reference types="Cypress" />
 describe('SuperDomain', () => {
     it('Aynı Classta İki Farklı Visit', () => {
         cy.visit('https://amazon.com')
