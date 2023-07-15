@@ -27,3 +27,9 @@ npx cypress run 'cypress/e2e/day02/01_LoginTest1.cy.js' --browser chrome  --head
 ÇALIŞTIRMAK içiN KOD TANIMLAMA
 PACKAGE.JSON dosyası içerisindeki script  bölümüne kendimizin belirleyeceği çalıştırma komutları
 “cy: run_day02" :”npx cypress run –spec ' cypress/e2e/day02/' –browser chrome
+
+
+package.json dosyasına "test_dashboard":"npx cypress run --record --key 92a55a41-4bfd-4284-a0be-63e2002385d4"  bu satır eklenirse
+npm run test_dashboard yazarak çalıştırabiliriz
+"dashboard_day04":"npx cypress run --spec 'cypress/e2e/day04 --record --key 92a55a41-4bfd-4284-a0be-63e2002385d4" bu satır eklenirse
+npm run dashboard_day04 yazarak dasbhboard'da day04 testlerini execute edebilirz
