@@ -30,3 +30,10 @@ Cypress.Commands.add('Login',(username,pass)=>{
     cy.get('#login-password').type(pass)
     cy.get('#sign_up > :nth-child(3) > .btn').click()
 })
+
+Cypress.Commands.add('amazonsearch',(productName)=>{
+    cy.visit('https://www.amazon.com')
+    cy.get('#twotabsearchtextbox').type(productName)
+    cy.get('#nav-search-submit-button').click()
+    cy.get('#twotabsearchtextbox').should('have.value',productName)
+})
