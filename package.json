@@ -5,17 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test_dashboard":"npx cypress run --record --key f7eda2e6-1940-4365-a1aa-51f2199567f2",
-    "dashboard_day04":"npx cypress run --spec 'e2e/day04' --record --key f7eda2e6-1940-4365-a1aa-51f2199567f2"
+    "test_dashboard": "npx cypress run --record --key f7eda2e6-1940-4365-a1aa-51f2199567f2",
+    "dashboard_day04": "npx cypress run --spec 'e2e/day04' --record --key f7eda2e6-1940-4365-a1aa-51f2199567f2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
     "@faker-js/faker": "^8.0.2",
     "cypress": "^12.16.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
   }
 }
