@@ -16,5 +16,7 @@ describe('POM ile login', () => {
        loginpage.getAssert()
     });
 
+
+    
     
 });
