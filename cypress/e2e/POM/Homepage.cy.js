@@ -7,5 +7,7 @@ class Homepage{
         cy.visit('https://qa.qualitydemy.com/')
     }
 
+
+    
 }
 export default Homepage
