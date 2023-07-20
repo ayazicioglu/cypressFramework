@@ -3,4 +3,6 @@ describe('Locate alma', () => {
         cy.visit('/')
         cy.g
     });
+
+    
 });
