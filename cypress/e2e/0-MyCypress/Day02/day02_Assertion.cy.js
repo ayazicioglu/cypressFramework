@@ -28,5 +28,6 @@ describe('assertion yapma', () => {
          //5 include text >> element texti içeriyor mu assertionu yapar
         cy.get('.btn-sign-in-simple').should('include.text','Log')
        });
+       
         
     });
