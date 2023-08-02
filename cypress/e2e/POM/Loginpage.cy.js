@@ -15,6 +15,6 @@ class LoginPage{
       return cy.get(':nth-child(6) > .icon > a').should('contains.text',"courses")
     }
 
-    
+   
 }
 export default LoginPage
