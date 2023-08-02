@@ -12,4 +12,6 @@ describe('Json ile login testi', () => {
         cy.visit(this.data.url)
         cy.contains('log in',{matchCase:false}).click()
     });
+
+    
 });
