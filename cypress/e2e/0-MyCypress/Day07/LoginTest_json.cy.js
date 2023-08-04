@@ -7,6 +7,7 @@ describe('Json ile login testi', () => {
 
     });
 
+    
 
     it('Login testi', () => {
         cy.visit(this.data.url)
