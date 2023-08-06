@@ -7,6 +7,8 @@ describe('', () => {
         cy.title().should('eq','Google')
         cy.title().should('include','Google')
     });
+
+    
     it('url test', () => {
         cy.url().should('eq','google')
     });
