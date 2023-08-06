@@ -16,6 +16,7 @@ describe('Login testi', () => {
         //2. yontem
        // cy.get('#login-email').type('mb@babayigit.net')
        // cy.get('#login-password').type('M123456.b{enter}')
+       
     });
 
     
