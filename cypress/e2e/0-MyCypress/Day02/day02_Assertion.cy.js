@@ -32,5 +32,4 @@ describe('assertion yapma', () => {
         cy.get('.btn-sign-in-simple').should('include.text','Log')
        });
        
-        
     });
