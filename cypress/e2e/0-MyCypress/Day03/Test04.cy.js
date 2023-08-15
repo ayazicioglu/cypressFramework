@@ -11,4 +11,5 @@ describe('Locate almada Fonksiyon İşlemi', () => {
        //     expect(textcontrol.text()).to.contains('Login')
        // })
     });
+    
 });
