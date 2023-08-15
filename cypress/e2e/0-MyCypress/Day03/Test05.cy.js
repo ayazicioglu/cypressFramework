@@ -16,4 +16,5 @@ describe('', () => {
      afterEach(() => { //Her bir testten (it bloğu) sonra çalışır 
          cy.log('Bir test tamamlandı. Diğerine geçiliyor')
      });
+     
  });
