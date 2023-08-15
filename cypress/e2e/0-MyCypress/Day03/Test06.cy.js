@@ -8,5 +8,7 @@ describe('go komutu kullanımı', () => {
         cy.wait(3000)
         cy.go(-1)
         cy.go(1)
+
+        
 });
 });
