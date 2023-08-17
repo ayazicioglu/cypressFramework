@@ -18,5 +18,6 @@ describe('Hover Over', () => {
         cy.wait(4000)
         cy.reload(true) // sayfayı catch'den değil direk sıfırdan açar
         
+        
     });
 });
