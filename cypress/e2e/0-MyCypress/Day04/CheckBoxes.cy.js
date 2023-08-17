@@ -21,7 +21,7 @@ describe('CheckBox Methodları', () => {
         //cy.get("input[type='checkbox']").eq(24).check().should('be.checked')
         //cy.get("input[type='checkbox']").eq(35).check().should('be.checked')
         
-       
+    
         
     });
 });
