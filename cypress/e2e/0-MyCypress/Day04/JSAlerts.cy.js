@@ -22,4 +22,7 @@ describe('JS Alerts Click', () => {
         })
         cy.get('#result').should('have.text','You clicked: Cancel')
     });
+
+
+    
 });
