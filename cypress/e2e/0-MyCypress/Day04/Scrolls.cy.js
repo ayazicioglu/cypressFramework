@@ -19,6 +19,7 @@ describe('Scroll İşlemleri', () => {
         cy.scrollTo(0,500) // aşağı inmek için
         cy.wait(3000)
         cy.scrollTo(0,-500) //yukarı çıkmak için
+        
     
     });
     it('koordinatla gitme', () => {
