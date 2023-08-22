@@ -10,7 +10,6 @@ describe('Read and Assert from Files', () => {
             expect(userdata[7].email).to.equal('Sherwood@rosamond.me')
         })
 
-
         
     });
 
